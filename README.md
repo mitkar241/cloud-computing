@@ -5,24 +5,28 @@ A terraform repository
 ### VS Code Setup
 ---
 
-![vscode-extn-md](vscode.md)
+[vscode-extn-md](vscode.md)
 
 ### AWS IAM Setup
 ---
 
-![aws-iam-md](iam.md)
+[aws-iam-md](iam.md)
 
 ### Terraform Setup
 ---
 
-![terraform-setup-md](terraform.md)
+[terraform-setup-md](terraform.md)
 
 ### Remote SSH using VS Code
 ---
 
-![remote-ssh-md](remotessh.md)
+[remote-ssh-md](remotessh.md)
 
 ### Commands Used
 ---
 
-![cmds-used-md](commands.md)
+[cmds-used-md](commands.md)
+
+### Resources
+---
+- [Learn Terraform (and AWS) by Building a Dev Environment](https://www.youtube.com/watch?v=iRaai1IBlB0)
