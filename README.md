@@ -30,3 +30,8 @@ A terraform repository
 ### Resources
 ---
 - [Learn Terraform (and AWS) by Building a Dev Environment](https://www.youtube.com/watch?v=iRaai1IBlB0)
+
+### TODO
+---
+- Investigate if AWS regions have their own CIDRs configured and restricted.
+
