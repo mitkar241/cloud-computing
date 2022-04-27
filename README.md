@@ -34,4 +34,4 @@ A terraform repository
 ### TODO
 ---
 - Investigate if AWS regions have their own CIDRs configured and restricted.
-
+- Add loadbalancer example and try for both (with HTTPS and HTTP, HTTP should redirect to HTTPS)
