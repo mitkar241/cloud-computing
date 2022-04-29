@@ -35,3 +35,5 @@ A terraform repository
 ---
 - Investigate if AWS regions have their own CIDRs configured and restricted.
 - Add loadbalancer example and try for both (with HTTPS and HTTP, HTTP should redirect to HTTPS)
+- Structure Repo to handle more setups
+- Also look into reusability of code - module + backend
