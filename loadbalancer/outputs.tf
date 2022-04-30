@@ -1,9 +1,9 @@
 /*
 terraform output
 */
-output "dev-ip" {
+output "instance-pub-ip" {
   value       = aws_instance.tagrant.public_ip
   sensitive   = false
-  description = "dev public IP output"
+  description = "instance public IP output"
   depends_on  = []
 }

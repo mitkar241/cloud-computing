@@ -54,7 +54,7 @@ resource "aws_security_group" "tagrant" {
     from_port   = 0
     to_port     = 0
     protocol    = "-1"
-    cidr_blocks = ["116.206.222.130/32"]
+    cidr_blocks = ["115.187.43.124/32"]
   }
 
   egress {
