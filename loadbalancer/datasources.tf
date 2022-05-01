@@ -4,6 +4,9 @@ AMI name = ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*
 Owner account ID = 099720109477
 */
 
+####################################################
+# TERRAFORM DATASOURCES
+####################################################
 # Create an AMI that will start a machine whose root device is backed by
 # an EBS volume populated from a snapshot. It is assumed that such a snapshot
 # already exists with the id "snap-xxxxxxxx".

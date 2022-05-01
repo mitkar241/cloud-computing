@@ -9,14 +9,14 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  region                  = "ap-south-1"
-  shared_credentials_file = "~/.aws/credentials"
-  profile                 = "tagrant"
+  region                  = var.aws_region
+  shared_credentials_file = var.iam_cred_path
+  profile                 = var.iam_cred_profile[var.aws_env]
   default_tags {
     tags = {
-      Environment = "dev"
-      Name        = "tagrant"
-      Owner       = "mitkar241"
+      Environment = "${var.tag_environment[var.aws_env]}"
+      Name        = "${var.tag_name}"
+      Owner       = "${var.tag_owner}"
     }
   }
 }
