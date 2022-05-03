@@ -2,6 +2,77 @@
 ---
 A terraform repository
 
+### Codebase Structure
+---
+```
+.
+├── ansible
+│   └── README.md
+├── apps
+│   └── devsetup
+│       ├── datasources.tf
+│       ├── main.tf
+│       ├── Makefile
+│       ├── outputs.tf
+│       ├── providers.tf
+│       ├── ssh.config.tpl
+│       └── variables.tf
+├── envs
+│   ├── dvlp
+│   │   └── devsetup.tfvars
+│   ├── prod
+│   │   └── devsetup.tfvars
+│   ├── stag
+│   │   └── devsetup.tfvars
+│   └── test
+│       └── devsetup.tfvars
+├── modules
+│   ├── apps
+│   │   ├── api-server
+│   │   │   └── README.md
+│   │   └── website
+│   │       └── README.md
+│   ├── common
+│   │   ├── acm
+│   │   │   └── README.md
+│   │   └── user
+│   │       └── README.md
+│   ├── compute
+│   │   └── ec2
+│   │       └── ubuntu
+│   │           ├── main.tf
+│   │           ├── outputs.tf
+│   │           └── variables.tf
+│   ├── data
+│   │   ├── efs
+│   │   │   └── README.md
+│   │   ├── rds
+│   │   │   └── README.md
+│   │   └── s3
+│   │       └── README.md
+│   └── networking
+│       ├── alb
+│       │   └── README.md
+│       ├── front-proxy
+│       │   └── README.md
+│       ├── vpc
+│       │   └── README.md
+│       └── vpc-pairing
+│           └── README.md
+├── packer
+│   └── README.md
+├── scripts
+│   ├── basic.sh
+│   ├── crypter.js
+│   ├── github.sh
+│   ├── nginx.sh
+│   ├── nodejs.sh
+│   ├── ssh.config.tpl
+│   └── tagrant.conf
+└── tools
+    └── README.md
+```
+
 ### VS Code Setup
 ---
 
