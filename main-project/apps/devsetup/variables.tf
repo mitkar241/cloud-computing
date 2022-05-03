@@ -9,7 +9,7 @@ variable "aws_env" {
 
 variable "host_public_ip" {
   type        = string
-  default     = "115.187.43.29"
+  default     = "X.X.X.X"
   description = "public IP of current host"
 }
 
