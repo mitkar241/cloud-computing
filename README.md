@@ -108,3 +108,4 @@ A terraform repository
 - Add loadbalancer example and try for both (with HTTPS and HTTP, HTTP should redirect to HTTPS)
 - Structure Repo to handle more setups
 - Also look into reusability of code - module + backend
+- Go through any `AWS Certified Cloud Practitioner Training` course.
