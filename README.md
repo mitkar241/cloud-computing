@@ -110,3 +110,28 @@ A terraform repository
 - Also look into reusability of code - module + backend
 - Go through any `AWS Certified Cloud Practitioner Training` course.
 - Check ECS free tier and plan for a terraform file, bonus: EKS.
+
+## VPC Course Contents
+---
+[AWS VPC Beginner to Pro - Virtual Private Cloud Tutorial](https://www.youtube.com/watch?v=g2JOHLHh4rI)
+- Introduction
+- IPv4 Addressing Primer
+- Amazon VPC Overview
+- Defining VPC CIDR Blocks
+- VPC Wizard
+- Create a Custom VPC with Subnets
+- Launch Instances and Test VPC
+- Security Groups and Network ACL
+- Configure Security Groups and NACLs
+- Amazon VPC Peering
+- Configure VPC Peering
+- VPC Endpoints
+- Create VPC Endpoint
+- AWS Client VPN
+- AWS Site-to-Site VPN
+- AWS VPN CloudHub
+- AWS Direct Connect (DX)
+- AWS Direct Connect Gateway
+- AWS Transit Gateway
+- Using IPv6 in a VPC
+- Create VPC Flow Logs
