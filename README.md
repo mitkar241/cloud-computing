@@ -110,6 +110,7 @@ A terraform repository
 - Also look into reusability of code - module + backend
 - Go through any `AWS Certified Cloud Practitioner Training` course.
 - Check ECS free tier and plan for a terraform file, bonus: EKS.
+- Windows compute is to be documented and automated
 
 ## VPC Course Contents
 ---
