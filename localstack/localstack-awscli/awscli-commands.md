@@ -29,13 +29,13 @@ bash list-tables.sh
 #### get entries in dynamodb tables
 
 ```bash
-bash scan-table.sh VWAPOOLS
+bash scan-table.sh MOVIE
 ```
 
 #### get schema of a dynamodb table
 
 ```bash
-bash describe-table.sh VWAPOOLS
+bash describe-table.sh MOVIE
 ```
 
 ### lambda scripts
