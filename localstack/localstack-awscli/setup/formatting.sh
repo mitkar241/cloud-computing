@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/env bash -e
 
 cleanup() {
   showCursor
@@ -13,7 +13,7 @@ hideCursor() {
     tput civis
 }
 
-line="======================================="
+line="=============================================="
 
 underLine(){
 	echo $1

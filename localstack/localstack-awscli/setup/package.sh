@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 
 SPNR_STR=".......( "
 SPNR_END="  )"
@@ -22,7 +22,7 @@ showProgress() {
 	CMD=$2
 	PID=$!
 
-	spinner="◐ ◓ ◑ ◒"
+	spinner="/ | \ -"
 	i=1
 	PROG_MSG="$PKG installation in progress"
 	while [ -d /proc/$PID ]
@@ -50,7 +50,7 @@ refreshPkg() {
 	$CMD > /dev/null 2>&1  &
 	PID=$!
 
-	spinner="◐ ◓ ◑ ◒"
+	spinner="/ | \ -"
 	i=1
 	PROG_MSG="$PKG in progress"
 	while [ -d /proc/$PID ]
